@@ -1,0 +1,1 @@
+I decided I would fork off of version 3.1 of NESAsm and add some new features that I felt were missing. This project lacked a way to specify an output path and a way to specify input file(s) using a switch. This version of NESasm I am working on will primarily be integrated into ConsoleIDE.
