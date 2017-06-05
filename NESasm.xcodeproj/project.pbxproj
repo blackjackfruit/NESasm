@@ -24,6 +24,7 @@
 		D1003A2A1EE4B6FD007959B3 /* pcx.c in Sources */ = {isa = PBXBuildFile; fileRef = D1003A201EE4B6FD007959B3 /* pcx.c */; };
 		D1003A2B1EE4B6FD007959B3 /* proc.c in Sources */ = {isa = PBXBuildFile; fileRef = D1003A211EE4B6FD007959B3 /* proc.c */; };
 		D1003A2C1EE4B6FD007959B3 /* symbol.c in Sources */ = {isa = PBXBuildFile; fileRef = D1003A231EE4B6FD007959B3 /* symbol.c */; };
+		D1003A301EE4DCEC007959B3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D1003A2F1EE4DCEC007959B3 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +66,7 @@
 		D1003A221EE4B6FD007959B3 /* protos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = protos.h; path = NESasm/protos.h; sourceTree = SOURCE_ROOT; };
 		D1003A231EE4B6FD007959B3 /* symbol.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = symbol.c; path = NESasm/symbol.c; sourceTree = SOURCE_ROOT; };
 		D1003A241EE4B6FD007959B3 /* vars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vars.h; path = NESasm/vars.h; sourceTree = SOURCE_ROOT; };
+		D1003A2F1EE4DCEC007959B3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				D1003A2E1EE4B706007959B3 /* implementation */,
 				D1003A2D1EE4B6FF007959B3 /* interfaces */,
 				D1003A031EE4B6EA007959B3 /* main.c */,
+				D1003A2F1EE4DCEC007959B3 /* README.md */,
 			);
 			name = NESasm;
 			path = NESassembler;
@@ -206,6 +209,7 @@
 				D1003A171EE4B6F3007959B3 /* input.c in Sources */,
 				D1003A121EE4B6F3007959B3 /* code.c in Sources */,
 				D1003A251EE4B6FD007959B3 /* map.c in Sources */,
+				D1003A301EE4DCEC007959B3 /* README.md in Sources */,
 				D1003A131EE4B6F3007959B3 /* command.c in Sources */,
 				D1003A161EE4B6F3007959B3 /* func.c in Sources */,
 				D1003A041EE4B6EA007959B3 /* main.c in Sources */,

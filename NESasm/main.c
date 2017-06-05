@@ -592,13 +592,13 @@ help(void)
 		prg_name = machine->asm_name;
 
 	/* display help */
-	printf("%s [-options] [-? (for help)] infile\n\n", prg_name);
+	printf("%s [-options] [-? (for help)] \n\n", prg_name);
 	printf("-s/S   : show segment usage\n");
 	printf("-l #   : listing file output level (0-3)\n");
 	printf("-m     : force macro expansion in listing\n");
 	printf("-raw   : prevent adding a ROM header\n");
-    printf("-output : (optional) the path to output the file to");
-    printf("-input : input file");
+    printf("-output : the path to output the file to\n");
+    printf("-input : input file\n");
 	if (machine->type == MACHINE_PCE) {
 		printf("-cd    : create a CD-ROM binary image\n");
 		printf("-scd   : create a Super CD-ROM binary image\n");
@@ -606,7 +606,6 @@ help(void)
 		printf("-mx    : create a Develo MX file\n");
 	}
 	printf("-srec  : create a Motorola S-record file\n");
-	printf("infile : file to be assembled\n");
 }
 
 
